@@ -1,4 +1,5 @@
 # Load JSON: json_data
+import json
 with open("a_movie.json") as json_file:
     json_data = json.load(json_file)
 
